@@ -1,12 +1,27 @@
 # v2ray-hy2-v4json
 V2ray 支持 Hysteria2 配置文件v4格式 一键脚本演示
 
+## 一键执行方式
+
+```
+bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/refs/heads/main/install.sh)
+```
+
+## 带参数执行方式
+```
+bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/refs/heads/main/install.sh) <netstack> <port> <domain> <password>
+```
+如
+```
+bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/refs/heads/main/install.sh) 4 2096 bing.com d3b27d90-507d-30c0-93db-42982a5a33a7
+```
+## 说明
 本项目主要目的是演示 V2ray 支持 Hysteria2 配置文件v4格式, 证书使用自签.  
 如果你想用别的方式申请证书请自行参考其它教程/文档以实践.  
 配置文件格式参考 https://github.com/JimmyHuang454/v2ray-core/blob/dev/release/config/hy2/hysteria2_offical_v4.json  
 我把 tlsSettings 段补充完整, 并针对小白补充更详细的手搓过程.
 
-手搓步骤如下
+## 手搓步骤如下
 
 官方脚本安装 V2ray  
 ```
