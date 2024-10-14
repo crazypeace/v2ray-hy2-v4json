@@ -4,17 +4,18 @@ V2ray 支持 Hysteria2 配置文件v4格式 一键脚本演示
 ## 一键执行方式
 
 ```
-bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/refs/heads/main/install.sh)
+bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/main/install.sh)
 ```
 
 ## 带参数执行方式
 ```
-bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/refs/heads/main/install.sh) <netstack> <port> <domain> <password>
+bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/main/install.sh) <netstack> <port> <domain> <password>
 ```
 如
 ```
-bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/refs/heads/main/install.sh) 4 2096 bing.com d3b27d90-507d-30c0-93db-42982a5a33a7
+bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/main/install.sh) 4 2096 bing.com d3b27d90-507d-30c0-93db-42982a5a33a7
 ```
+
 ## 说明
 本项目主要目的是演示 V2ray 支持 Hysteria2 配置文件v4格式, 证书使用自签.  
 如果你想用别的方式申请证书请自行参考其它教程/文档以实践.  
