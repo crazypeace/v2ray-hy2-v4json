@@ -1,10 +1,17 @@
 # v2ray-hy2-v4json
 V2ray 支持 Hysteria2 配置文件v4格式 一键脚本演示
 
-## 一键执行方式
+## 一键执行
 
 ```
 bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/main/install.sh)
+```
+
+# Uninstall
+```
+bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh) --remove
+rm /etc/apt/sources.list.d/caddy-stable.list
+apt remove -y caddy
 ```
 
 ## 带参数执行方式
