@@ -10,8 +10,6 @@ bash <(curl -L https://github.com/crazypeace/v2ray-hy2-v4json/raw/main/install.s
 # Uninstall
 ```
 bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh) --remove
-rm /etc/apt/sources.list.d/caddy-stable.list
-apt remove -y caddy
 ```
 
 ## 带参数执行方式
