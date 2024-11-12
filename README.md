@@ -112,3 +112,10 @@ chmod -R 777 "/etc/ssl/private"
 ```
 systemctl enable v2ray; systemctl start v2ray
 ```
+
+## Win 在 go v1.21.4 环境下编译 v2ray v5.18.0 以支持 hy2
+说明 https://zelikk.blogspot.com/2024/11/win7-go-v1-21-4-v2ray-v5-18-0-hy2.html  
+编译结果上传到了本项目  
+https://github.com/crazypeace/v2ray-hy2-v4json/raw/refs/heads/main/V2Ray-5.18.0(go1.21.4-windows-386).zip  
+https://github.com/crazypeace/v2ray-hy2-v4json/raw/refs/heads/main/V2Ray-5.18.0(go1.21.4-windows-amd64).zip  
+欢迎 Win7 用户反馈.
