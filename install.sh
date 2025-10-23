@@ -434,3 +434,6 @@ elif  [[ $netstack == "4" ]]; then
     service caddy restart
 
 fi
+
+echo
+echo "节点信息保存在 ~/_v2ray_hy2_url_ 中"
